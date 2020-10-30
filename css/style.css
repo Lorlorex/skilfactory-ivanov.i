@@ -403,6 +403,9 @@ main {
 }
 .girl {
 	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1;
 }
 .girl_name {
 	display: flex;
@@ -425,9 +428,7 @@ main {
 .profel_girl {
 	width: 197px;
 	height: 214px;
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1 1;
+	
 	background-color: #d4dce680;
 	margin: 0 10px;
 	margin-bottom: 10px;
@@ -484,6 +485,7 @@ main {
 	align-items: center;
 	text-transform: uppercase;
 	height: 82px;
+	text-decoration: none;
 	width: 217px;
 	font-size: 18px;
 	font-family: 'Open SansH2', helvetica, arial, sans-serif;
@@ -727,9 +729,7 @@ main {
 	.social {
 		width: 40Vw;
 	}
-	.profel_girl {
-		width: 30%;
-	}
+	
 	.email {
 		font-size: 14px;
 	}
@@ -826,5 +826,8 @@ main {
 	.contacts_right {
 		height: 0;
 	}
-	
+	.about_as_comand {
+		flex-direction: column;
+		justify-content: center;
+	}
 }
