@@ -821,16 +821,17 @@ main {
 	.portfolio_menu_spisok {
 		flex-direction: column;
 	}
-	.contacts_right {
-		height: 0;
-	}
+	
 }
-@media screen and (max-width: 540px){
+@media screen and (max-width: 560px){
 	.contacts_right {
 		height: 0;
 	}
 	.about_as_comand {
 		flex-direction: column;
 		justify-content: center;
+	}
+	.copiraite_p {
+		font-size: 11px;
 	}
 }
